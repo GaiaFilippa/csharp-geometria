@@ -13,7 +13,11 @@ namespace Geometria
         public int altezzaRettangolo;
         public int areaRettangolo;
         public int perimetroRettangolo;
-     
+
+        public Rettangolo()
+        {
+        }
+
 
 
 
