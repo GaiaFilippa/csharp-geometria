@@ -44,3 +44,22 @@ Console.WriteLine("Base: " + rettangolo3.baseRettangolo + " cm");
 Console.WriteLine("Altezza: " + rettangolo3.altezzaRettangolo + " cm");
 Console.WriteLine("Area: " + rettangolo3.CalcolaArea() + " cm2");
 Console.WriteLine("Perimetro: " + rettangolo3.CalcolaPerimetro() + " cm");
+
+Console.WriteLine();
+
+Console.WriteLine("Rettangolo Utente");
+
+Console.WriteLine("Inserisci la base del rettangolo: ");
+int baseRettangoloUtente = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Inserisci l'altezza: ");
+int altezzaRettangoloUtente = int.Parse(Console.ReadLine());
+
+Rettangolo rettangoloUtente = new Rettangolo(baseRettangoloUtente, altezzaRettangoloUtente);
+
+
+
+Console.WriteLine("Base: " + rettangoloUtente.baseRettangolo + " cm");
+Console.WriteLine("Altezza: " + rettangoloUtente.altezzaRettangolo + " cm");
+Console.WriteLine("Area: " + rettangoloUtente.CalcolaArea() + " cm2");
+Console.WriteLine("Perimetro: " + rettangoloUtente.CalcolaPerimetro() + " cm");
